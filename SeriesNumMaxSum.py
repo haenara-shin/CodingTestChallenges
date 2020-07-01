@@ -12,10 +12,6 @@ def getSubsum(data) :
     return max(sum_num)
 
 def main():
-    '''
-    이 부분은 수정하지 마세요.
-    '''
-
     data = [int(x) for x in input().split()]
 
     print(getSubsum(data))
