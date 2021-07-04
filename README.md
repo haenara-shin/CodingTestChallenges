@@ -17,5 +17,5 @@
 |-- NaverWebToon
 |-- PUBG
 |-- PRogrammers
-# Subdirectories are not shown
+# Subdirectories are not shown.
 ```
