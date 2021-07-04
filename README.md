@@ -8,7 +8,6 @@
 |-- BaekJoon
 |-- CodeSignal
 |-- Codeit
-|   |-- Python_Intermediate
 |-- Codeup
 |-- Codility
 |-- Dongbin_book   
@@ -18,5 +17,5 @@
 |-- NaverWebToon
 |-- PUBG
 |-- PRogrammers
-
+# Subdirectories are not shown
 ```
