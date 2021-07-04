@@ -1,6 +1,6 @@
 # Coding test challenge repository
 
-- Notice that all content is copyrighted from each content author.
+- Notice that all content is copyrighted from each content provider.
 
 ```bash
 .
