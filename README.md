@@ -16,6 +16,6 @@
 |-- LeetCode
 |-- NaverWebToon
 |-- PUBG
-|-- PRogrammers
+|-- Programmers
 # Subdirectories are not shown.
 ```
