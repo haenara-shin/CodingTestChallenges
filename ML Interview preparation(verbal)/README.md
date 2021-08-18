@@ -33,7 +33,7 @@
   - `Basis`
     - 어떤 vector space V(그냥 벡터의 집합임..)의 벡터들이 linearly independent 하면서 vector space V 전체를 생성할 수 있는 벡터들의 집합.
       - vector space가 되기 위해선 +, *에 닫혀있고, 이것들의 선형 결합에도 닫혀 있어야 함.
-    - $R^m$의 임의의 원소를 표현하기 위해 필요한 최소한의 벡터로 이루어진 집합
+    - $$R^m$$의 임의의 원소를 표현하기 위해 필요한 최소한의 벡터로 이루어진 집합
     - m 차원의 임의의 원소를 표현하는데 필요한 최소한의 벡터가 m개. (m개 초과하면 basis는 아님)
     - 즉, 선형 독립은 제로 벡터([0,0,...,0])에 한정된 개념이고, 기저는 m 차원의 모든 벡터를 대상으로 하는 개념
     > [y<sub>1</sub>,y<sub>2</sub>,...,y<sub>m</sub>] = c<sub>1</sub>[a<sub>11</sub>,a<sub>21</sub>,...,a<sub>m1</sub>] + c<sub>2</sub>[a<sub>12</sub>,a<sub>22</sub>,...,a<sub>m2</sub>] + ... + c<sub>n</sub>[a<sub>1n</sub>,a<sub>2n</sub>,...,a<sub>mn</sub>] 의 해가 1개만 존재하는 경우, 집합 [[a<sub>11</sub>,a<sub>21</sub>,...,a<sub>m1</sub>], [a<sub>12</sub>,a<sub>22</sub>,...,a<sub>m2</sub>], ..., [a<sub>1n</sub>,a<sub>2n</sub>,...,a<sub>mn</sub>]]을 $R^m$의 Basis 라고 함.
