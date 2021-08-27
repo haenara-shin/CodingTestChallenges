@@ -31,11 +31,11 @@
    16. [Confidence interval (신뢰구간) 이란?](#Confidence-interval-(신뢰구간)-이란?)
    17. [Covariance/correlation 이란?](#Covariance/correlation-이란?)
    18. [Total variation (SST), Explained variation (SSR), Unexplained variation(SSE) 이란?](#Total-variation-(SST),-Explained-variation-(SSR),-Unexplained-variation(SSE)-이란?)
-   19. [Coefficient of determination 이란? (결정 계수, $R^2$)](#Coefficient-of-determination-이란?-(결정 계수,-$R^2$))
-   20. [P-value 란?](#P-value-란?)
-   21. [Likelihood-ratio test (우도비 검정법)?](#Likelihood-ratio-test-(우도비-검정법)?)
-   22. [KDE(Kernel Density Estimation)?](#KDE(Kernel-Density-Estimation)?)
-   23. [모수 추정(Parameter estimation)](#모수-추정(Parameter-estimation))
+   19. Coefficient of determination 이란? (결정 계수, $R^2$)
+   20. P-value 란?
+   21. Likelihood-ratio test (우도비 검정법)?
+   22. KDE(Kernel Density Estimation)?
+   23. 모수 추정(Parameter estimation)
 6.  [Machine Learning](#Machine-Learning)
     1.  [Frequentism 와 Bayesian 차이/장점](#Frequentism-와-Bayesian-차이/장점)
     2.  [차원의 저주란?](#차원의-저주란?)
