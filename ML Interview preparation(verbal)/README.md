@@ -1,27 +1,29 @@
-# Table of Content
+(Updated on 25 Aug. 2021)
+
+# Table of Content  -- the link will be fixed soon.
 1. [ML Interview preparation (verbal)](#ML-Interview-preparation-(verbal))
 2. [대학원 진학의 경우](#대학원-진학의-경우)
 3. [퀵 정리](#퀵-정리)
 4. [Linear Algebra](#Linear-Algebra)
-   1. [Linearly Independent (선형 독립)?](#Linearly-Independent-(선형-독립)?)
-   2. [Basis (기저), Dimension (차원), Rank(계수), Determinant (행렬식)?](#Basis-(기저),-Dimension-(차원),-Rank(계수),-Determinant-(행렬식)?)
-   3. [Null space 란 무엇?](#Null-space-란-무엇?)
-   4. [Symmetric matrix (대칭 행렬)?](#Symmetric-matrix-(대칭-행렬)?)
-   5. [Positive-definite 란?](#Positive-definite-란?)
-   6. [Eigenvector(고유벡터), Eigenvalue(고유값), Diagonalization(대각화), SVD(특이값 분해)?](#Eigenvector(고유벡터),-Eigenvalue(고유값),-Diagonalization(대각화),-SVD(특이값-분해)?)
-   7. [Jacobian matrix 란 무엇?](#Jacobian-matrix-란-무엇?)
+   1. Linearly Independent (선형 독립)?
+   2. Basis (기저), Dimension (차원), Rank(계수), Determinant (행렬식)?
+   3. Null space 란 무엇?](#Null-space-란-무엇?
+   4. Symmetric matrix (대칭 행렬)?
+   5. Positive-definite 란?
+   6. Eigenvector(고유벡터), Eigenvalue(고유값), Diagonalization(대각화), SVD(특이값 분해)?
+   7. Jacobian matrix 란 무엇?
 5. [Statistics/Probability (확률/통계) 및 Statistical Learning](#Statistics/Probability-(확률/통계)-및-Statistical-Learning)
-   1. [확률이랑 통계 다른 점](#확률이랑-통계-다른-점)
-   2. [Central Limit Theorem 이란? Central Limit Theorem 은 어디에 쓸 수 있는지?](#Central-Limit-Theorem-이란?-Central-Limit-Theorem-은-어디에-쓸-수-있는지?)
-   3. [큰 수의 법칙 이란?](#큰-수의-법칙-이란?)
-   4. [(Joint, Marginal, Conditional) Probability Distribution 이란 무엇인가](#(Joint,-Marginal,-Conditional)-Probability-Distribution-이란-무엇인가)
-   5. [Bayes rule/theory 란 무엇인가?](#Bayes-rule/theory-란-무엇인가?)
-   6. [Bias 란 무엇인가? Unbiased estimation은 무조건 좋은가? Unbiased estimation의 장점은 무엇?](#Bias-란-무엇인가?-Unbiased-estimation은-무조건-좋은가?-Unbiased-estimation의-장점은-무엇?)
-   7. [Biased/Unbiased estimation의 차이는?](#Biased/Unbiased-estimation의-차이는?)
-   8. [Bias, Variance, MSE란? 그리고 그들의 관계는?](#Bias,-Variance,-MSE란?-그리고-그들의-관계는?)
-   9. [Sample Variance (표본 분산) 란 무엇인가?](#Sample-Variance-(표본-분산)-란-무엇인가?)
-   10. [Sample variance(표본 분산)를 구할 때, N 대신에 N-1로 나눠주는 이유는?](#Sample-variance(표본-분산)를-구할-때,-N-대신에-N-1로-나눠주는-이유는?)
-   11. [Gaussian Distribution에서 MLE와 Sample Variance 중에 어떤 걸 사용해야 하는가? (정확한 정답인지는 모르겠음. 질문이 잘 이해가 안됨.)](#Gaussian-Distribution에서-MLE와-Sample-Variance-중에-어떤-걸-사용해야-하는가?-(정확한-정답인지는-모르겠음.-질문이-잘-이해가-안됨.))
+   1. 확률이랑 통계 다른 점
+   2. Central Limit Theorem 이란? Central Limit Theorem 은 어디에 쓸 수 있는지?
+   3. 큰 수의 법칙 이란?
+   4. (Joint, Marginal, Conditional) Probability Distribution 이란 무엇인가
+   5. Bayes rule/theory 란 무엇인가?
+   6. Bias 란 무엇인가? Unbiased estimation은 무조건 좋은가? Unbiased estimation의 장점은 무엇?
+   7. Biased/Unbiased estimation의 차이는?
+   8. Bias, Variance, MSE란? 그리고 그들의 관계는?
+   9. Sample Variance (표본 분산) 란 무엇인가?
+   10. Sample variance(표본 분산)를 구할 때, N 대신에 N-1로 나눠주는 이유는?
+   11. Gaussian Distribution에서 MLE와 Sample Variance 중에 어떤 걸 사용해야 하는가? (정확한 정답인지는 모르겠음. 질문이 잘 이해가 안됨.)
    12. [Binomial (이항), Bernoulli(베르누이), Multinomial(다항), Multinoulli 란 무엇인가?](#Binomial-(이항),-Bernoulli(베르누이),-Multinomial(다항),-Multinoulli-란-무엇인가?)
    13. [Beta, Dirichlet, Gamma, Poisson Distribution은 어디에 쓰이는가?](#Beta,-Dirichlet,-Gamma,-Poisson-Distribution은-어디에-쓰이는가?)
    14. [Conjugate Prior Distribution (켤레 사전 분포) 란?](#Conjugate-Prior-Distribution-(켤레-사전-분포)-란?)
