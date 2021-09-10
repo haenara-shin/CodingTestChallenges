@@ -24,8 +24,8 @@
    9. Sample Variance (표본 분산) 란 무엇인가?
    10. Sample variance(표본 분산)를 구할 때, N 대신에 N-1로 나눠주는 이유는?
    11. Gaussian Distribution에서 MLE와 Sample Variance 중에 어떤 걸 사용해야 하는가? (정확한 정답인지는 모르겠음. 질문이 잘 이해가 안됨.)
-   12. [Binomial (이항), Bernoulli(베르누이), Multinomial(다항), Multinoulli 란 무엇인가?](#Binomial-(이항),-Bernoulli(베르누이),-Multinomial(다항),-Multinoulli-란-무엇인가?)
-   13. [Beta, Dirichlet, Gamma, Poisson Distribution은 어디에 쓰이는가?](#Beta,-Dirichlet,-Gamma,-Poisson-Distribution은-어디에-쓰이는가?)
+   12. [Binomial (이항), Bernoulli(베르누이), Multinomial(다항), Multinoulli 란 무엇인가?]
+   13. [Beta, Dirichlet, Gamma, Poisson Distribution은 어디에 쓰이는가?]
    14. [Conjugate Prior Distribution (켤레 사전 분포) 란?]
    15. [Bias and Variance Trade-off 란 무엇인가?]
    16. [Confidence interval (신뢰구간) 이란?]
