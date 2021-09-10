@@ -84,7 +84,7 @@
     44. [U-net 구조 및 특징]
     45. [트리 기반 모델의 Feature importance 어떻게 구함?])
     46. [Cut-mix 가 잘되는 이유?]
-7.  [수행 했던 프로젝트들 중 기술 스택]
+7.  [수행 했던 프로젝트들 중 기술 스택](#수행-했던-프로젝트들-중-기술-스택)
     1.  [EfficientNet의 우월함?]
     2.  [R-CNN vs. Fast R-CNN vs. Faster R-CNN]
     3.  [mAP in Image detection]
