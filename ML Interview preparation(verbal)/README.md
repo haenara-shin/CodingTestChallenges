@@ -26,68 +26,68 @@
    11. Gaussian Distribution에서 MLE와 Sample Variance 중에 어떤 걸 사용해야 하는가? (정확한 정답인지는 모르겠음. 질문이 잘 이해가 안됨.)
    12. [Binomial (이항), Bernoulli(베르누이), Multinomial(다항), Multinoulli 란 무엇인가?](#Binomial-(이항),-Bernoulli(베르누이),-Multinomial(다항),-Multinoulli-란-무엇인가?)
    13. [Beta, Dirichlet, Gamma, Poisson Distribution은 어디에 쓰이는가?](#Beta,-Dirichlet,-Gamma,-Poisson-Distribution은-어디에-쓰이는가?)
-   14. [Conjugate Prior Distribution (켤레 사전 분포) 란?](#Conjugate-Prior-Distribution-(켤레-사전-분포)-란?)
-   15. [Bias and Variance Trade-off 란 무엇인가?](#Bias-and-Variance-Trade-off-란-무엇인가?)
-   16. [Confidence interval (신뢰구간) 이란?](#Confidence-interval-(신뢰구간)-이란?)
-   17. [Covariance/correlation 이란?](#Covariance/correlation-이란?)
-   18. [Total variation (SST), Explained variation (SSR), Unexplained variation(SSE) 이란?](#Total-variation-(SST),-Explained-variation-(SSR),-Unexplained-variation(SSE)-이란?)
+   14. [Conjugate Prior Distribution (켤레 사전 분포) 란?]
+   15. [Bias and Variance Trade-off 란 무엇인가?]
+   16. [Confidence interval (신뢰구간) 이란?]
+   17. [Covariance/correlation 이란?]
+   18. [Total variation (SST), Explained variation (SSR), Unexplained variation(SSE) 이란?]
    19. Coefficient of determination 이란? (결정 계수, $R^2$)
    20. P-value 란?
    21. Likelihood-ratio test (우도비 검정법)?
    22. KDE(Kernel Density Estimation)?
    23. 모수 추정(Parameter estimation)
 6.  [Machine Learning](#Machine-Learning)
-    1.  [Frequentism 와 Bayesian 차이/장점](#Frequentism-와-Bayesian-차이/장점)
-    2.  [차원의 저주란?](#차원의-저주란?)
-    3.  [Train, Valid, Test를 나누는 이유는 무엇? 교차 검증(cross validation) 이란?](#Train,-Valid,-Test를-나누는-이유는-무엇?-교차-검증(cross-validation)-이란?)
-    4.  [(Super-, Unsuper-, Semi-super)vised learning 이란?](#(Super-,-Unsuper-,-Semi-super)vised-learning-이란?)
-    5.  [Receiver Operating Characteristic Curve 란?](#Receiver-Operating-Characteristic-Curve-란?)
-    6.  [Precision, Recall, Type I/II error](#Precision,-Recall,-Type-I/II-error)
-    7.  [Precision Recall Curve?](#Precision-Recall-Curve?)
-    8.  [Information?](#Information?)
-    9.  [Entropy 란?](#Entropy-란?)
-    10. [Cross Entropy 와 KL-Divergence 란?](#Cross-Entropy-와-KL-Divergence-란?)
-    11. [Mutual Information 이란?](#Mutual-Information-이란?)
-    12. [Cross-Entropy loss 란?](#Cross-Entropy-loss-란?)
-    13. [Decision theory란?](#Decision-theory란?)
-    14. [Generative model vs. Discriminative model 이란?](#Generative-model-vs.-Discriminative-model-이란?)
-    15. [분류와 회귀의 차이](#분류와-회귀의-차이)
-    16. [회귀란? (Regression)](#회귀란?-(Regression))
-    17. [Overfitting/Underfitting 이란 무엇이고 어떤 문제?](#Overfitting/Underfitting-이란-무엇이고-어떤-문제?)
-    18. [Overfitting 과 Underfitting 을 해결하는 방법은?](#Overfitting-과-Underfitting-을-해결하는-방법은?)
-    19. [Regularization 이란?](#Regularization-이란?)
-    20. [Lasso/Ridge/ElasticNet 이란?](#Lasso/Ridge/ElasticNet-이란?)
-    21. [Regularization_version2](#Regularization_version2)
-    22. [Activation function 이란? 3가지 activation function type](#Activation-function-이란?-3가지-activation-function-type)
-    23. [CNN 에 대해 설명](#CNN-에-대해-설명)
-    24. [RNN 에 대해 설명](#RNN-에-대해-설명)
-    25. [Newton's method 이란 무엇?](#Newton's-method-이란-무엇?)
-    26. [경사하강법(Gradient Descent)](#경사하강법(Gradient-Descent))
-    27. [역전파(Backpropagation)](#역전파(Backpropagation))
-    28. [Optimizer 의 종류와 차이](#Optimizer-의-종류와-차이)
-    29. [Local optimum 으로 빠지는데 성능이 좋은 이유는 무엇?](#Local-optimum-으로-빠지는데-성능이-좋은-이유는-무엇?)
-    30. [Internal Covariate Shift](#Internal-Covariate-Shift)
-    31. [Batch Normalization 은 무엇이고 왜 하는지?](#Batch-Normalization-은-무엇이고-왜-하는지?)
-    32. [BatchNormalization vs. LayerNormalization](#BatchNormalization-vs.-LayerNormalization)
-    33. [Ensemble 이란?](#Ensemble-이란?)
-    34. [Stacking 이란?](#Stacking-이란?)
-    35. [Bagging 이란?](#Bagging-이란?)
-    36. [Boosting 이란?](#Boosting-이란?)
-    37. [Bagging 과 Boosting 차이?](#Bagging-과-Boosting-차이?)
-    37. [AdaBoost/Logit Boost/Gradient Boost/LGBM 차이](#AdaBoost/Logit-Boost/Gradient-Boost/LGBM-차이)
-    38. [SVM 이란?](#SVM-이란?)
-    39. [Margin 을 최대화 하면 어떤 장점?](#Margin-을-최대화-하면-어떤-장점?)
-    40. [PCA 란?](#PCA-란?)
-    41. [LDA 란? (Linear Discriminant Analysis)](#LDA-란?-(Linear-Discriminant-Analysis))
-    42. [SVD (Singular Value Decomposition) 란? (선형 대수학 섹션에서 다시 설명)](#SVD-(Singular-Value-Decomposition)-란?-(선형-대수학-섹션에서-다시-설명))
-    43. [Clustering 종류](#Clustering-종류)
-    44. [U-net 구조 및 특징](#U-net-구조-및-특징)
-    45. [트리 기반 모델의 Feature importance 어떻게 구함?](#트리-기반-모델의-Feature-importance-어떻게-구함?)
-    46. [Cut-mix 가 잘되는 이유?](#Cut-mix-가-잘되는-이유?)
-7.  [수행 했던 프로젝트들 중 기술 스택](#수행-했던-프로젝트들-중-기술-스택)
-    1.  [EfficientNet의 우월함?](#EfficientNet의-우월함?)
-    2.  [R-CNN vs. Fast R-CNN vs. Faster R-CNN](#R-CNN-vs.-Fast-R-CNN-vs.-Faster-R-CNN)
-    3.  [mAP in Image detection](#mAP-in-Image-detection)
+    1.  [Frequentism 와 Bayesian 차이/장점]
+    2.  [차원의 저주란?]
+    3.  [Train, Valid, Test를 나누는 이유는 무엇? 교차 검증(cross validation) 이란?]
+    4.  [(Super-, Unsuper-, Semi-super)vised learning 이란?]
+    5.  [Receiver Operating Characteristic Curve 란?]
+    6.  [Precision, Recall, Type I/II error]
+    7.  [Precision Recall Curve?]
+    8.  [Information?]
+    9.  [Entropy 란?]
+    10. [Cross Entropy 와 KL-Divergence 란?]
+    11. [Mutual Information 이란?]
+    12. [Cross-Entropy loss 란?]
+    13. [Decision theory란?]
+    14. [Generative model vs. Discriminative model 이란?]
+    15. [분류와 회귀의 차이]
+    16. [회귀란? (Regression)]
+    17. [Overfitting/Underfitting 이란 무엇이고 어떤 문제?]
+    18. [Overfitting 과 Underfitting 을 해결하는 방법은?]
+    19. [Regularization 이란?]
+    20. [Lasso/Ridge/ElasticNet 이란?]
+    21. [Regularization_version2]
+    22. [Activation function 이란? 3가지 activation function type]
+    23. [CNN 에 대해 설명]
+    24. [RNN 에 대해 설명]
+    25. [Newton's method 이란 무엇?]
+    26. [경사하강법(Gradient Descent)]
+    27. [역전파(Backpropagation)]
+    28. [Optimizer 의 종류와 차이]
+    29. [Local optimum 으로 빠지는데 성능이 좋은 이유는 무엇?]
+    30. [Internal Covariate Shift]
+    31. [Batch Normalization 은 무엇이고 왜 하는지?]
+    32. [BatchNormalization vs. LayerNormalization]
+    33. [Ensemble 이란?]
+    34. [Stacking 이란?]
+    35. [Bagging 이란?]
+    36. [Boosting 이란?]
+    37. [Bagging 과 Boosting 차이?]
+    37. [AdaBoost/Logit Boost/Gradient Boost/LGBM 차이]
+    38. [SVM 이란?]
+    39. [Margin 을 최대화 하면 어떤 장점?]
+    40. [PCA 란?]
+    41. [LDA 란? (Linear Discriminant Analysis)]
+    42. [SVD (Singular Value Decomposition) 란? (선형 대수학 섹션에서 다시 설명)]
+    43. [Clustering 종류]
+    44. [U-net 구조 및 특징]
+    45. [트리 기반 모델의 Feature importance 어떻게 구함?])
+    46. [Cut-mix 가 잘되는 이유?]
+7.  [수행 했던 프로젝트들 중 기술 스택]
+    1.  [EfficientNet의 우월함?]
+    2.  [R-CNN vs. Fast R-CNN vs. Faster R-CNN]
+    3.  [mAP in Image detection]
 
 #
 ## ML Interview preparation (verbal)
