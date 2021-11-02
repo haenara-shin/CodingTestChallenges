@@ -573,6 +573,7 @@
           - $f(x) = x (x>=0)$ or 0 $(x<0)$ , $f'(x) = 1 (x>=0)$ or $0 (x<0)$
           - ![스크린샷 2021-08-13 오전 10 16 08](https://user-images.githubusercontent.com/58493928/129395932-f15555d8-d9ac-43dc-813d-727a7202c0ad.png)
           - 0 미만의 값은 0. 
+          - 전파되는 값들이 크고(0이상일때 그대로 전달) 역전파 되는 값들 역시 (y=x를 미분하면 1이 나오기 때문에) 기울기 값이 그대로 전파되므로 학습 속도가 빠름. 또한, 연산과정에서 sigmoid/tanh 는 지수연산이 필요하지만 ReLU는 값을 그대로 전달해주기 때문에 속도가 빠름.
           - `한계점`: 한 번이라도 출력 값이 0 미만의 값이 다음 레이어에 전달되면 이후의 뉴런들의 출력값이 모두 0이 되는 `dying ReLU` 발생. 따라서 음수 출력 값을 소량이나마 다음 레이어에 전달하는 방식으로 개선한 ReLU 변종 함수들 등장.
    2. `Radial activation function`
       - RBF(Radial Basis Function) network에서 사용됨. 효율이 매우 좋은 universal function approximator (). 
