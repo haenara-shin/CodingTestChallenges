@@ -595,10 +595,11 @@
     - `pooling`: feature map의 일정 영역 별로 하나의 값을 추출하는 subsampling. 비슷한 feature map 들이 서로 다른 이미지에서 '위치'가 달라지면서 다르게 해석되는 현상이 중화됨. 하지만 특정 위치의 feature 값이 손실될 위험이 있음. 그래서 stride로 대체하는 경향도 있음.
         
         > Convolution 연산 진행하면서 점차 `feature map 크기를 줄이면`, 위치 변화에 따른 feature 값 영향도(spatial invariance)를 줄일 수 있고, 이는 generalization/overfitting 감소 등의 장점으로 연결.
-    - `padding`: 합성곱 연산 수행시 출력 feature map이 입력 feature map 보다 계속 작아지는 것을 막음. 모서리 feature 잡아냄.
+    - `padding`: 합성곱 연산 수행시 출력 feature map이 입력 feature map 보다 계속 작아지는 것을 막음. 모서리 feature 잡아냄. 입력 이미지에서 충분한 특성 추출.
       - `same`: 아웃풋이 인풋과 동일한 길이를 갖도록 인풋 패딩
       - `valid`: 패딩 없음
       - `causal`: 입력의 왼쪽에 0을 알맞게 패딩하고 valid 처리. 시계열 모델에서 미래 시퀀스 보지 않기 위함.
+    - `feature map size = floor(((I-K + 2P)/S) + 1), I = 이미지 크기, K = 필터 크기, S = 스트라이드, P = 패딩 크기`
     - `dropout`: 연결망의 무작위 drop(연결 줄임) --> overfitting 개선. 
     - `GAP`: Flatten의 여러 이슈들(3차원 feature map을 1차원으로 줄여서 FC layer에 연결하면 파라미터 숫자가 급증해서 연산량 증가하고 overfitting 발생) 개선 위해 channel 별로 (각 feature map 별로) average 값 1개씩 뽑음. 따라서 spatial information 을 유지하면서 category로 직접 연관 시킬 수 있음. 별로의 parameter optimization 필요하지 않아서 연산량 적고 overfitting도 차단.
 - [x] RNN 에 대해 설명
