@@ -430,12 +430,14 @@
     - $H(x) = \sum_i p_i * log{\frac {1}{p_i}} = -\sum_i p_i * log{p_i}$
 - [x] Cross Entropy 와 KL-Divergence 란?
   - `Cross entropy`: 두 개의 확률 분포 p와 q에 대해 하나의 사건 x가 갖는 정보량(서로 다른 두 확률 분포에 대해 같은 사건이 가지는 정보량). `실제 확률 분포가 p일 때, 그와는 다른 어떠한 확률 분포 q로 부터 얻을 수 있는 정보의 양.` 또는, `목표로 하는 최적의 확률분포 p와 이를 근사하려는 확룰분포 q가 얼만 다른지를 측정`하는 방법(즉, 원래 p였던 분포르 q로 표현했을 때 얼마만큼의 비용이 드는지를 측정).
+    - Cross Entropy = 최적의 분포 p의 Entropy + KLD
     - $H(p,q) = -\sum_x p(x) * log{q(x)}$
     > ML에서 cross-entropy를 최소화 하는 문제는 결국, `데이터가 보여주는 분포와 모델이 학습한 분포의 각각의 확률이 같아지도록 하는 최적화`
-  - `KL divergence`: 두 확률 분포 간의 정보량 차이를 나타냄. Cross-entropy는 Entropy 보다 항상 크고, p = q 일 때에만 같으므로 cross-entropy로 부터 entropy를 뺀 값을 두 분포 사이의 거리로 사용. 사실 거리 함수는 아닌데(왜냐면 $D_{KL}(p||q)!=D_{KL}(q||p)$ 니까) 두 분포가 다르면 다를수록 큰 값을 가지며, 둘이 일치할 때에만 0을 갖기 때문에 거리와 비슷한 용도로 사용. 
-    - 결국 cross-entropy minimization 문제는 KL divergence를 최소화 하는 문제와 동치임.
+  - `KL divergence`: 분포 `p를 기준으로 q가 얼마나 다른지`를 측정하는 방법. 두 확률 분포 간의 정보량 차이를 나타냄. Cross-entropy는 Entropy 보다 항상 크고, p = q 일 때에만 같으므로 cross-entropy로 부터 entropy를 뺀 값을 두 분포 사이의 거리로 사용. 사실 거리 함수는 아닌데(왜냐면 $D_{KL}(p||q)!=D_{KL}(q||p)$ 니까) 두 분포가 다르면 다를수록 큰 값을 가지며, 둘이 일치할 때에만 0을 갖기 때문에 거리와 비슷한 용도로 사용. 
+    - 결국 cross-entropy minimization 문제는 KL divergence를 최소화 하는 문제와 동치임. 즉, q가 p의 분포와 최대한 같아지게 한다는 의미.
       - H(p)는 p의 엔트로피, 즉 우리가 가지고 있는 데이터의 분포이며 학습과정에서 바뀌지 않음. 따라서 q에 대해서 cross-entropy를 최소화 한다는 것은 KL divergence를 최소화 한다는 의미. 따라서 p를 근사하는 q의 확률분포가 최대한 p와 같아질 수 있도록 모델의 파라미터를 조정하는 것.
     - $D_{KL}(p||q) = H(p,q) - H(p) = \sum_x p(x)log{\frac{1}{q(x)}} - p(x)log{\frac{1}{p(x)}} = \sum_x p(x)log{\frac{p(x)}{q(x)}}$
+  - Cross Entropy 값은, 예측이 잘못될수록 L1 손실(선형적으로 증가) 보다 더 크게 증가함. 그만큼 더 페널티가 크고 손실 값(loss)이 크기 때문에 학습 면에서도 Cross Entropy를 사용하는 것이 장점이 있음. 그래서 분류 문제에서 자주 사용함.
 - [x] Mutual Information 이란?
   - joint probability p(x,y) 와 두 marginal 의 곱(p(x)q(x)) 사이의 KL divergence
   - $MI(X;Y) = D_{KL} (p(x,y)||p(x)q(y))$
